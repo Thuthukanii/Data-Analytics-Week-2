@@ -17,3 +17,5 @@ Examples of unstructured data include digital images, audio recordings, video re
 Quantitative data consists of numeric values. Data elements whose values come from counting or measuring are quantitative.
 Qualitative data consists of frequent text values. Data elements whose values describe characteristics, traits, and attitudes are all qualitative.
     
+Structured data fits well into CSV files, a popular format for exchanging data via flat files.
+A complex data structure, you need capabilities beyond what a flat-file provides. Formatting the data as JSON or XML is a viable alternative.
