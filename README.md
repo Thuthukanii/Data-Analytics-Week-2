@@ -84,6 +84,35 @@ Delete - ##DELETE-Removes existing data from an existing table
 
 Duplicate Data
 Duplicate data occurs when data representing the same transaction is accidentally duplicated within a system.
+
+Recoding Data
+Recoding data is a technique you can use to map original values for a variable into new values to facilitate analysis.
+
+Derived Variables
+A derived variable is a new variable resulting from a calculation on an existing variable.
+
+Data Merge
+A data merge uses a common variable to combine multiple datasets with different structures into a single dataset.
+
+Data Blending
+Data blending combines multiple sources of data into a single dataset at the reporting layer.
+
+Concatenation
+Concatenation is the merging of separate variables into a single variable. Concatenation is a highly effective technique when dealing with a source system that stores components of a single variable in multiple columns.
+
+Data Append
+A data append combines multiple data sources with the same structure, resulting in a new dataset containing all the rows from the original datasets.
+
+Imputation
+Imputation is a technique for dealing with missing values by replacing them with substitutes.
+Remove Missing Data:  With this approach, you can remove rows with missing values without impacting the quality of your overall analysis.
+Replace with Zero:  With this approach, you replace missing values with a zero. Whether or not it is appropriate to replace missing data with a zero is contextual. In this case, zero isn't an appropriate value, as a person's weight should be a positive number. In addition, replacing a zero in this case has an extraordinary impact on the overall average weight.
+Replace with Overall Average:  Instead of using a zero, you can compute the average Weight value for all rows that have data and then replace the missing Weight values with that calculated average.
+Replace with Most Frequent (Mode):  Alternatively, you can take the most frequently occurring value, called the mode, and use that as the constant.
+Closest Value Average:  With this approach, you use the values from the rows before and after the missing values.
+
+
+
 **Data Analytics Tools**
  
 **Spreadsheets**
